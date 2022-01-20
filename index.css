@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("hero-bg.png");
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 30px 40px;
+    text-transform: uppercase;
+}
+span{
+    color: crimson;
+    text-transform: uppercase;
+}
+ul li{
+    display: inline-block;
+    padding: 30px 15px;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+ul li a::after{
+    content: '';
+    background: crimson;
+    height: 2px;
+    width: 0%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.text{
+    font-size: 2rem;
+    left: 30%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text span{
+    color: tomato;
+    font-weight: 600;
+}
+.btn{
+    text-decoration: none;
+    border: 2px solid crimson;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s;
+}
+.btn:hover{
+    background: crimson;
+    letter-spacing: 1px;
+}
+.service{
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.service h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.service p{
+    width: 350px;
+    margin-bottom: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.box1{
+    background: rgb(51, 50, 50);
+    height: 220px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 240px;
+    text-align: left;
+}
+.box1 img{
+    height: 40px;
+    width: 40px;
+    padding: 10px 15px;
+}
+.box1 h3{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box1 p{
+    width: 200px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-left: 10px;
+}
+.project{
+    margin-bottom: 40%;
+}
+.project h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.projects{
+    width: 100%;
+    height: 100%;
+    
+}
+.project1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+    flex-direction: column;
+    margin-top: 35%;
+    
+}
+.sub-text1{
+    width: 28%;
+    height: 100%;
+    background: rgb(56, 56, 83);
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.sub-text1 h2{
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.sub-text1 h5{
+    margin: 10px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sub-text1 p{
+    margin: 0px 10px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+.sub-img{
+    width: 28%;
+    height: 280px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img-1.png");
+}
+.sub-img:hover{
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+}
+.sub-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    margin-bottom: 5%;
+}
+.about-pic{
+    width: 15%;
+    height: 250px;
+    margin-top: 80px;
+    position: relative;
+}
+.about-pic::after{
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 5px solid crimson;
+    z-index: -1;
+}
+.about-pic img{
+    width: 100%;
+    height: 100%;
+}
+.about-text{
+    width: 600px;
+    margin-left: 20px;
+}
+.about-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    
+}
+.about-text h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.about-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin-top: 25px;
+}
+.btn-1{
+    text-decoration: none;
+    color: white;
+    background: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin-top: 25px;
+    position: absolute;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    padding: 12px 20px;
+    letter-spacing: 1px;
+}
+.contact{
+    margin-bottom: 5%;
+}
+.contact h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.contacts-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    padding: 20px 30px;
+    margin: 20px;
+    width: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.phone:hover{
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+}
+.phone-pic{
+    width: 30px;
+    height: 50px;
+}
+.phone-pic img{
+    width: 100%;
+    height: auto;
+}
+.phone-text{
+    margin-left: 20px;
+}
+.phone-text h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.phone-text p{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.footer{
+    background: rgb(31, 31, 59);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+}
+.footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.footer h5{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+.icons{
+    display: flex;
+    letter-spacing: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+.icons .fb:hover:nth-child(1){
+    color: rgb(124, 124, 238);
+    font-size: 1.5rem;
+}
+.icons .fb:hover:nth-child(2){
+    color: crimson;
+    font-size: 1.5rem;
+}
+.icons .fb:hover:nth-child(3){
+    color: green;
+    font-size: 1.5rem;
+}
+.icons .fb:hover:nth-child(4){
+    color: rgb(83, 83, 248);
+    font-size: 1.5rem;
+}
+.footer p{
+    font-size: 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    margin-bottom: 1%;
+}
+
+
+/* Responsive */
+
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .logo{
+        font-size: 1rem;
+        display: block;
+        width: 100%;
+    }
+    .text{
+        font-size: 1.2rem;
+    }
+    .btn{
+       
+        border: 2px solid crimson;
+        padding: 10px 28px;
+        font-size: 1rem;
+        position: absolute;
+        transition: 1s;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-pic{
+        height: 200px;
+        margin-top: 200px;
+        
+    }
+    .about-text{
+        width: 450px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .btn-1{
+    font-size: 0.8rem;
+    margin-left: -70px;
+    }
+    .contact{
+        margin-top: 15%;
+        text-align: center;
+    }
+    .contacts-main{
+        flex-direction: column;
+    }
+    .footer h1{
+        font-size: 1rem;
+    }
+    .footer h5{
+        font-size: 0.8rem;
+    }
+    .icons{
+        font-size: 1rem;
+    }
+    .footer p{
+        font-size: 0.5rem;
+    }
+    
+}
+
